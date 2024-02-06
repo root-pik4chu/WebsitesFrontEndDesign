@@ -1,0 +1,210 @@
+@font-face {
+     font-family: f1;
+     src: url(Gilroy-Regular.ttf);
+}
+
+@font-face {
+     font-family: f2;
+     src: url(Gilroy-Medium.ttf);
+}
+
+::selection      { 
+     color: rgb(255, 255, 255);  
+     background: rgb(22, 22, 22); 
+}
+
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color: rgba(9, 9, 9, 0.825);
+font-family:f1;
+font-weight: 400;
+}
+
+body,html{
+height: 100%;
+width: 100%;
+}
+
+
+#main{
+     width: 100%;
+     min-height: 100vh;
+}
+
+#page1{
+     width: 100%;
+     height: 100vh;
+     background-color: #d2d2d2;
+
+}
+nav{
+     height: 10vh;
+     width: 100%;
+     /* background-color: rgb(121, 121, 255); */
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0 4vw;
+}
+.right h1{
+     font-size: 3vw;
+}
+.left{
+     display: flex;
+     align-items: center;
+     /* justify-content: ; */
+     gap: 2vw;
+}
+#text{
+     /* background-color: rgb(255, 121, 121); */
+     cursor: pointer;
+     height: 3vh;
+     overflow: hidden;
+     
+}
+#button{
+     /* background-color: rgb(255, 121, 121); */
+     height: 3vh;
+     overflow: hidden;
+     border: 1px solid rgb(34, 34, 34);
+     padding: 2.5vh;
+     border-radius: 40px;
+     line-height: 3.3vh;
+     
+}
+#button>#upperText{
+     /* background-color: rgb(255, 121, 121); */
+     margin-top: -1.4vh;
+     
+}
+#upperText{
+
+     transition: all cubic-bezier(0.455, 0.03, 0.515, 0.955).3s;
+}
+
+
+#text:hover #upperText{
+     margin-top: -3vh;
+     opacity: 0;
+}
+#button:hover #upperText{
+     margin-top: -4.4vh;
+     opacity: 0;
+}
+
+#dabbi{
+     background-color: rgb(34, 34, 34);
+     height: 2vh;
+     width: 2px;
+}
+
+/* container */
+.container{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     gap: 3vh;
+     margin-top: 12vh;
+     position: relative;
+}
+.container-Data{
+     width: 75%;
+     height: 54vh;
+     /* border: 1px solid white; */
+     
+}
+
+.container-Data .first{
+     margin-left: 12vw;
+     width: 100%;
+     height: 18vh;
+     /* border: 1px solid black; */
+}
+.container-Data .first .img{
+     width: 16vh;
+     height: 16vh;
+     background-color: rgb(255, 90, 90);
+     border-radius: 50%;
+     margin-right: 2vw;
+     background-image: url(https://resonance.bestlooker.pro/images/demo-modern/hs-image-2.jpg);
+     background-size: cover;
+     object-position: center;
+
+}
+.container-Data .first {
+     display: flex;
+     align-items: center;
+
+}
+#name{
+     font-size: 15vh;
+     font-weight: 900;
+}
+
+.container-Data .second{
+     width: 100%;
+     height: 18vh;
+     /* border: 1px solid black; */
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.container-Data .second .para p{
+     line-height: 2.5vh;
+}
+#sapna{
+     margin-right: 4vw;
+}
+.container-Data .third{
+     width: 100%;
+     height: 18vh;
+     /* border: 1px solid black; */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 2vw;
+}
+
+#img-third{
+     width: 26vh;
+     height: 16vh;
+     /* background-color: rgb(255, 90, 90); */
+     border-radius: 70px;
+     margin-right: 2vw;
+     background-image: url(https://resonance.bestlooker.pro/images/demo-modern/hs-image-3.jpg);
+     background-size: cover;
+     object-position: center;
+}
+
+#finalText h1{
+     font-size: 1.5vh;
+     letter-spacing: .5vw;
+}
+
+#dabbaa{
+     width: 2vw;
+     height: 70vh;
+     background-color: rgb(255, 255, 255);
+     position: absolute;
+     transform: rotate(30deg);
+     mix-blend-mode: difference;
+
+}
+
+
+
+/*! -------text-----mayi wali file---- */
+
+
+
+#page2{
+     width: 100%;
+     height: 100vh;
+     background-color: rgb(255, 90, 90);
+    
+
