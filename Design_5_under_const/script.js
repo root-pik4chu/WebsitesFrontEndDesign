@@ -1,3 +1,6 @@
+
+
+
 function lenis(){
      const lenis = new Lenis()
 
@@ -17,3 +20,13 @@ gsap.ticker.lagSmoothing(0)
 }
 
 lenis()
+
+
+Shery.mouseFollower();
+
+Shery.makeMagnet(".mag" /* Element to target.*/, {
+  //Parameters are optional.
+  ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+  duration: 1,
+});
+
